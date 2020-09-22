@@ -1,0 +1,6 @@
+framework module Pods_PYKNetworking_Example {
+  umbrella header "Pods-PYKNetworking_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

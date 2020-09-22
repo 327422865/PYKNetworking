@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - PYKNetworking (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - PYKNetworking (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  PYKNetworking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  PYKNetworking: 854378b684a7eae970aed75389f4f59a21c7c13b
+
+PODFILE CHECKSUM: 1a3f1b21fcc5b483063b2aa8af4bff0d34628442
+
+COCOAPODS: 1.10.0.rc.1

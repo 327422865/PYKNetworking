@@ -1,0 +1,6 @@
+framework module PYKNetworking {
+  umbrella header "PYKNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}
