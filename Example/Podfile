@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'PYKNetworking_Example' do
+  pod 'PYKNetworking', :path => '../'
+
+  target 'PYKNetworking_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
